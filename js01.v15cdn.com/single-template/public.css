@@ -1,0 +1,181 @@
+@import url("font/iconfont.css");
+
+:root {
+  --fontbold3: 300;
+  --fontbold4: 400;
+  --fontbold5: 500;
+  --fontbold6: 600;
+  --fontbold7: 700;
+  --fontbold8: 800;
+  --fontbold9: 900;
+  --wmpage-font13: var(--fontsize13, 13px);
+  --wmpage-font14: var(--fontsize14, 14px);
+  --wmpage-font15: var(--fontsize15, 15px);
+  --wmpage-font16: var(--fontsize16, 16px);
+  --wmpage-font17: var(--fontsize17, 17px);
+  --wmpage-font18: var(--fontsize18, 18px);
+  --wmpage-font20: var(--fontsize20, 20px);
+  --wmpage-font22: var(--fontsize22, 22px);
+  --wmpage-font24: var(--fontsize24, 24px);
+  --wmpage-font26: var(--fontsize26, 26px);
+  --wmpage-font28: var(--fontsize28, 28px);
+  --wmpage-font30: var(--fontsize30, 30px);
+  --wmpage-font32: 32px;
+  --wmpage-font34: 34px;
+  --wmpage-font36: 36px;
+  --wmpage-font38: 38px;
+  --wmpage-font40: 40px;
+  --wmpage-font42: 42px;
+  --wmpage-font44: 44px;
+  --wmpage-font46: 46px;
+  --wmpage-font48: 48px;
+  --wmpage-font50: 50px;
+  --wmpage-font52: 52px;
+  --wmpage-container1: 1200px;
+  --wmpage-container2: 1180px;
+  --wmpage-container3: 1220px;
+  --wmpage-container4: 1500px;
+  --wmpage-color0: #FB9737;
+  --wmpage-color1: #333840;
+  --wmpage-color2: #9ea6ab;
+  --wmpage-color3: #434749;
+  --wmpage-color4: #3d3d3d;
+  --wmpage-color5: #0e0f11;
+  --wmpage-color6: #2c2c2c;
+  --wmpage-color7: #7f8084;
+  --wmpage-color8: #666666;
+  --wmpage-color9: #6d6d6d;
+  --wmpage-color10: #b5b6be;
+  --wmpage-color11: #2b2b2b;
+  --wmpage-color12: #5f5f5f;
+  --wmpage-color13: #565656;
+  --wmpage-color14: #1f1f1d;
+  --wmpage-color15: #ebebeb;
+  --wmpage-color16: #5c5f67;
+  --wmpage-color17: #2c2d31;
+  --wmpage-color18: #111111;
+  --wmpage-color19: #777777;
+  --wmpage-color20: #0d3745;
+  --wmpage-color21: #252525;
+  --wmpage-color22: #222222;
+  --wmpage-color23: #444444;
+  --wmpage-color24: #b83a33;
+  --wmpage-color25: #6f7fa2;
+  --wmpage-color26: #8da1bc;
+  --wmpage-color27: #49c0c5;
+  --wmpage-color28: #aee2e4;
+  --wmpage-color29: #009e96;
+  --wmpage-color30: #caf3ea;
+  --wmpage-color31: #4c5a3c;
+  --wmpage-color32: #e4dfcf;
+  --wmpage-color33: #2e5399;
+  --wmpage-bgcolor1: linear-gradient(90deg, var(--wmpage-color27), var(--wmpage-color28));
+}
+
+.wmpagecontainer * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wmpagecontainer img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+.wmpagecontainer a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.1s linear;
+}
+
+.wmpagecontainer a:hover {
+  text-decoration: none;
+}
+
+.wmpagecontainer li,
+.wmpagecontainer ol,
+.wmpagecontainer ul {
+  list-style: none;
+}
+
+.wmpagecontainer iframe,
+.wmpagecontainer video {
+  max-width: 100%;
+  outline: 0;
+  border: none;
+  vertical-align: bottom;
+}
+
+.wmpage-lwrap {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 3% 10px;
+}
+
+.wmpage-title {
+  font-size: var(--wmpage-font28) !important;
+}
+
+@media (max-width: 1200px) {
+  .wmpage-title {
+    font-size: var(--wmpage-font26) !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wmpage-title {
+    font-size: var(--wmpage-font24) !important;
+  }
+
+  .wmpage-lwrap {
+    padding: 40px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wmpage-title {
+    font-size: var(--wmpage-font22) !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .wmpage-title {
+    font-size: var(--wmpage-font22) !important;
+  }
+}
+
+.prohome-content .wmpage-lwrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.prolist-bottom .wmpage-lwrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.prolist-content .wmpage-lwrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sfullwidthbg {
+  position: relative;
+  z-index: 1;
+}
+
+.sfullwidthbg::before {
+  content: '';
+  background-color: #fcfcfc;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 1920px;
+  height: 100%;
+  z-index: -1;
+}

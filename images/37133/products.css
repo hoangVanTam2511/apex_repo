@@ -1,0 +1,5 @@
+﻿.procate li .img img{object-fit:contain}
+.pro-list li .pro-img{background:#fff}
+.pro-list.list1 li{box-shadow:0 0 7px #aaa;}
+.pro-list.list1 li .pro-info{text-align:left;align-items:flex-start;}
+.pro-list.list1 li .pro-info .more{transform:none;position:static;margin-top:auto;}

@@ -1,0 +1,50 @@
+﻿.home-about{padding:0 0 4%;}
+@media (max-width:768px){.home-about{padding:0 0 40px;}}
+.home-banner .swiper-slide>a::after {background:none}
+.home-banner .banner-animote{text-align:left;padding:0;width:40%;transform:translate(0,-50%);left:10%}
+.home-banner .banner-animote.ban2{left:55%}
+@media (max-width:1700px){.home-banner .banner-animote{width:45%;left:7%}
+.home-banner .banner-animote.ban1{width:42%;}
+.home-banner .banner-animote.ban2{left:50%}
+.home-banner .banner-animote .p1{font-size:40px}}
+@media (max-width:1366px){.home-banner .banner-animote .p1{font-size:34px}}
+@media (max-width:1200px){.home-banner .banner-animote .p1{font-size:27px;margin:0 0 10px}}
+@media (max-width:1024px){.home-banner .banner-animote .p1{font-size:24px}
+.home-banner .banner-animote .p2{font-size:17px}}
+@media (max-width:768px){.home-banner .banner-animote .p1{font-size:20px}
+.home-banner .banner-animote .p2{font-size:15px}
+.home-banner{height:auto}}
+@media (max-width:540px){.home-banner .banner-animote .p1{font-size:15px;margin:0 0 3px}
+.home-banner .banner-animote .p2{font-size:12px}}
+@media (max-width:768px){.home-num .list li p{text-align: center;}
+.home-num .list{align-items: flex-start;}}
+.home-pro .list li:hover .info{background: #dedede;}
+@media(min-width:1025px){.head-nav .nav-ul>li>a{font-size: var(--fontsize20);}footer .foot-title{font-size: var(--fontsize22);}}
+#newswiper .swiper-slide .info .title{min-height: 51px;}
+footer .foot-title { font-weight: var(--fontbold4);}
+.home-pro .list li:hover .info{ color:#696969  ;}
+#serviceswiper2{margin-top:40px}
+#serviceswiper2 .swiper-slide{position:relative;aspect-ratio:1/1;border-radius:10px;overflow:hidden}
+#serviceswiper2 .swiper-slide img{width:100%;height:100%;object-fit:cover}
+#serviceswiper2 .swiper-slide .opacity{position:absolute;top:0px;left:0px;width:100%;height:100%;background:rgba(0,0,0,.5);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;color:#FFFFFF;transition:all .2s linear;padding:20px;opacity:0}
+#serviceswiper2 .swiper-slide .opacity .p1{font-size:var(--fontsize20);position:relative;padding-bottom:10px;margin-bottom:10px}
+#serviceswiper2 .swiper-slide .opacity .p1::after{content:"";position:absolute;left:0px;bottom:0px;width:60px;height:4px;background:var(--color)}
+#serviceswiper2 .swiper-slide:hover .opacity{opacity:1}
+#serviceswiper2 .serviceswiper-pagination{text-align:center;margin-top:20px}
+#serviceswiper2 .serviceswiper-pagination .swiper-pagination-bullet{background:#111111;opacity:1}
+#serviceswiper2 .serviceswiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background:var(--color)}
+#serviceswiper2 .serviceswiper-next,#serviceswiper2 .serviceswiper-prev{position:absolute;top:calc(50% - 20px);transform:translateY(-50%);z-index:1;display:flex;align-items:center;justify-content:center;border-radius:50%;width:45px;height:45px;cursor:pointer;transition:all .2s linear;background:rgba(255,255,255,.2)}
+#serviceswiper2 .serviceswiper-next em,#serviceswiper2 .serviceswiper-prev em{font-size:var(--fontsize24);color:#FFFFFF}
+#serviceswiper2 .serviceswiper-prev{left:10px}
+#serviceswiper2 .serviceswiper-next{right:10px}
+@media (max-width:768px){
+#serviceswiper2 .serviceswiper-next,#serviceswiper2 .serviceswiper-prev{display:none}
+#serviceswiper2{margin-top:20px}
+#serviceswiper2 .swiper-slide .opacity{opacity:1}}
+.home-pro .list li .info .text{-webkit-line-clamp: 1;}
+#newswiper .swiper-slide .info .date{font-size:var(--fontsize14);display:none;}
+#newswiper .swiper-slide .info .title{font-size:var(--fontsize16);line-height:22px;min-height:44px;letter-spacing: 1px;font-weight: normal;}
+#newswiper .swiper-slide .info .text{font-size:var(--fontsize14);line-height:20px;height:40px;margin:10px 0 15px;display:none}
+#newswiper .swiper-slide .info .more{background:var(--color);color:#FFFFFF;border-radius:30px;padding:0px 15px;display:inline-flex;align-items:center;justify-content:center;transition:all .2s linear;font-size:var(--fontsize14);height:32px;line-height:32px;margin-top:10px;}
+#newswiper .swiper-slide:hover .info .more{background:#fff;color:var(--fontcolor)}
+.home-banner .swiper-pagination{  bottom: 20px;  }
